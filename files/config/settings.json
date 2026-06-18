@@ -1,0 +1,27 @@
+{
+  "app_name": "МайндКер — Платформа онлайн-терапії",
+  "version": "1.1",
+  "author": "Белеканич Максим Олександрович",
+  "language": "uk",
+  "theme": {
+    "primary_color": "#5B8CFF",
+    "background": "#F7F9FC",
+    "accent": "#6FCF97"
+  },
+  "paths": {
+    "data_dir": "data",
+    "log_file": "logs/app.log",
+    "export_dir": "exports",
+    "sessions_file": "data/sessions.json",
+    "users_file": "data/users.json"
+  },
+  "ai_agent": {
+    "model": "local",
+    "max_response_length": 300,
+    "empathy_mode": true
+  },
+  "session": {
+    "max_messages": 100,
+    "autosave": true
+  }
+}
